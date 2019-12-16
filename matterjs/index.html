@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="../js/jquery.min.js"></script>
+    <style>
+      body {
+        text-align: center;
+        margin: 10px;
+      }
+
+      canvas {
+        margin: 20px auto;
+      }
+
+      button {
+        color: white;
+        background: orange;
+        border: none;
+        padding: 10px;
+        font-weight: 300;
+        font-size: 1.2em;
+        font-family: "Lato";
+        margin: 10px;
+        cursor: pointer;
+        outline: none;
+      }
+    </style>
+  </head>
+
+  <body id="the-body" style="border: 1px solid #555555; --borderWidth: 5px;">
+    <button class="add-circle">Add a Circle</button>
+    <button class="add-square">Add a Square</button>
+    <button class="rotate">Rotate</button>
+    <button class="slow-mo">Slow Motion</button>
+    <button class="norm-mo">Normal Motion</button>
+    <button class="fast-mo">Fast Motion</button>
+    <button class="red-friction">Reduce Friction</button>
+    <button class="res-friction">Restore Friction</button>
+    <script src="js/matter.min.js"></script>
+    <script src="js/basic.js"></script>
+  </body>
+</html>
