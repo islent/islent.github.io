@@ -15,6 +15,7 @@
 - https://islent.github.io/matterjs/04Constraints.html
 - https://islent.github.io/matterjs/05Pendulum.html
 - https://islent.github.io/BeautyOfMath/lorentz.html
+- https://islent.github.io/BeautyOfMath/rossler.html
 
 
 ## 使用
