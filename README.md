@@ -44,6 +44,10 @@
 
 如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题，对主题的修改也能实时展示（需要强刷浏览器）。
 
+Windows 安装 jekyll
+1. 安装 [Ruby](https://rubyinstaller.org/downloads/) without Devkit，最后一步安装 msys2 （必须，也可手动安装）
+2. `gem install jekyll`
+   1. 如果报错 `ERROR: Failed to build gem native extension`，可能是没有安装 `make`。解决方案：`ridk install`
 
 
 ### 开始
